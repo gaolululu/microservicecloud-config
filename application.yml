@@ -14,5 +14,5 @@ spring:
   profiles: test #测试环境
     active: dev
   application:
-    name: microservicecloud-config-atguigu-test
-# 文件以utf-8保存
+    name: microservicecloud-config-atguigu-test1
+# 文件以utf-8保存  
