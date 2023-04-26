@@ -15,7 +15,6 @@ spring:
 spring: 
 #测试环境
   profiles: test 
-    active: dev
   application: 
     name: microservicecloud-config-atguigu-test
 
