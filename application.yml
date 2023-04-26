@@ -6,13 +6,15 @@ spring:
 # 以 --- 为分割线，分为多个文档块Document，在每个文档块中定义每个环境的各个属性，最后激活即可。
 ---
 spring: 
-  profiles: dev #开发环境
+#开发环境
+  profiles: dev 
   application: 
     name: microservicecloud-config-atguigu-dev
 
 ---
 spring: 
-  profiles: test #测试环境
+#测试环境
+  profiles: test 
     active: dev
   application: 
     name: microservicecloud-config-atguigu-test1
